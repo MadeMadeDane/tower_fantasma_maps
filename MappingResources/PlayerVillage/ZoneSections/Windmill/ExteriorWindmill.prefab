@@ -3390,7 +3390,7 @@ MonoBehaviour:
     meshQuery:
       layers: 16777223
       maskAndChannels: 234881031
-    surfaceParameter: 676
+    surfaceParameter: 710
     meshQueryIndex: 0
     subMeshQueryIndex: 0
     geometryHashValue: 8243663040933602229

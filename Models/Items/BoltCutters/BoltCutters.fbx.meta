@@ -1,62 +1,170 @@
 fileFormatVersion: 2
 guid: 63d662ed203e24d34bd4f4997d302db7
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: Armature
-    100002: ArmL
-    100004: ArmL_end
-    100006: ArmR
-    100008: ArmR_end
-    100010: //RootNode
-    100012: BoltL
-    100014: BoltR
-    100016: ClipperL
-    100018: ClipperL_end
-    100020: ClipperR
-    100022: ClipperR_end
-    100024: GrabR
-    100026: Left Shear
-    100028: Right Shear
-    100030: Sun
-    100032: Sun.001
-    100034: Sun.002
-    100036: Top Pivot
-    400000: Armature
-    400002: ArmL
-    400004: ArmL_end
-    400006: ArmR
-    400008: ArmR_end
-    400010: //RootNode
-    400012: BoltL
-    400014: BoltR
-    400016: ClipperL
-    400018: ClipperL_end
-    400020: ClipperR
-    400022: ClipperR_end
-    400024: GrabR
-    400026: Left Shear
-    400028: Right Shear
-    400030: Sun
-    400032: Sun.001
-    400034: Sun.002
-    400036: Top Pivot
-    2100000: Material.003
-    2100002: Material.007
-    2100004: Material.005
-    4300000: Left Shear
-    4300002: Right Shear
-    4300004: Top Pivot
-    7400000: Armature|CutFast
-    7400002: Armature|PoseLib
-    9500000: //RootNode
-    10800000: Sun
-    10800002: Sun.001
-    10800004: Sun.002
-    13700000: Left Shear
-    13700002: Right Shear
-    13700004: Top Pivot
-    2186277476908879412: ImportLogs
+  serializedVersion: 25
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Armature
+  - first:
+      1: 100002
+    second: ArmL
+  - first:
+      1: 100004
+    second: ArmL_end
+  - first:
+      1: 100006
+    second: ArmR
+  - first:
+      1: 100008
+    second: ArmR_end
+  - first:
+      1: 100010
+    second: //RootNode
+  - first:
+      1: 100012
+    second: BoltL
+  - first:
+      1: 100014
+    second: BoltR
+  - first:
+      1: 100016
+    second: ClipperL
+  - first:
+      1: 100018
+    second: ClipperL_end
+  - first:
+      1: 100020
+    second: ClipperR
+  - first:
+      1: 100022
+    second: ClipperR_end
+  - first:
+      1: 100024
+    second: GrabR
+  - first:
+      1: 100026
+    second: Left Shear
+  - first:
+      1: 100028
+    second: Right Shear
+  - first:
+      1: 100030
+    second: Sun
+  - first:
+      1: 100032
+    second: Sun.001
+  - first:
+      1: 100034
+    second: Sun.002
+  - first:
+      1: 100036
+    second: Top Pivot
+  - first:
+      4: 400000
+    second: Armature
+  - first:
+      4: 400002
+    second: ArmL
+  - first:
+      4: 400004
+    second: ArmL_end
+  - first:
+      4: 400006
+    second: ArmR
+  - first:
+      4: 400008
+    second: ArmR_end
+  - first:
+      4: 400010
+    second: //RootNode
+  - first:
+      4: 400012
+    second: BoltL
+  - first:
+      4: 400014
+    second: BoltR
+  - first:
+      4: 400016
+    second: ClipperL
+  - first:
+      4: 400018
+    second: ClipperL_end
+  - first:
+      4: 400020
+    second: ClipperR
+  - first:
+      4: 400022
+    second: ClipperR_end
+  - first:
+      4: 400024
+    second: GrabR
+  - first:
+      4: 400026
+    second: Left Shear
+  - first:
+      4: 400028
+    second: Right Shear
+  - first:
+      4: 400030
+    second: Sun
+  - first:
+      4: 400032
+    second: Sun.001
+  - first:
+      4: 400034
+    second: Sun.002
+  - first:
+      4: 400036
+    second: Top Pivot
+  - first:
+      21: 2100000
+    second: Material.003
+  - first:
+      21: 2100002
+    second: Material.007
+  - first:
+      21: 2100004
+    second: Material.005
+  - first:
+      43: 4300000
+    second: Left Shear
+  - first:
+      43: 4300002
+    second: Right Shear
+  - first:
+      43: 4300004
+    second: Top Pivot
+  - first:
+      74: 7400000
+    second: Armature|CutFast
+  - first:
+      74: 7400002
+    second: Armature|PoseLib
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      108: 10800000
+    second: Sun
+  - first:
+      108: 10800002
+    second: Sun.001
+  - first:
+      108: 10800004
+    second: Sun.002
+  - first:
+      137: 13700000
+    second: Left Shear
+  - first:
+      137: 13700002
+    second: Right Shear
+  - first:
+      137: 13700004
+    second: Top Pivot
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -84,7 +192,65 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|CutFast
+      takeName: Armature|CutFast
+      internalID: 7400000
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|PoseLib
+      takeName: Armature|PoseLib
+      internalID: 7400002
+      firstFrame: 0
+      lastFrame: 8
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -99,18 +265,19 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -119,10 +286,11 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -132,6 +300,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

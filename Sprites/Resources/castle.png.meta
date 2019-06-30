@@ -1,10 +1,12 @@
 fileFormatVersion: 2
 guid: 8b5bc3ab9ed052e43a3070a0fa38959e
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: castle_0
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: castle_0
   externalObjects: {}
-  serializedVersion: 9
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -111,6 +113,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 8e7fda66cd0c0f542a57d49a9c810e7d
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -119,10 +122,12 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: cdb8c7f09453b79439d12b5df5e8ef43
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

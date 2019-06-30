@@ -1,97 +1,275 @@
 fileFormatVersion: 2
 guid: b6ce783f040a60340b8b4a8293220a9c
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: Armature
-    100002: Cylinder
-    100004: ElbowL
-    100006: ElbowL_end
-    100008: ElbowR
-    100010: ElbowR_end
-    100012: Head
-    100014: Head_end
-    100016: HipL
-    100018: HipR
-    100020: IKArmL
-    100022: IKArmR
-    100024: IKLegL
-    100026: IKLegR
-    100028: KneeL
-    100030: KneeL_end
-    100032: KneeR
-    100034: KneeR_end
-    100036: LowArmL
-    100038: LowArmL_end
-    100040: LowArmR
-    100042: LowArmR_end
-    100044: LowLegL
-    100046: LowLegL_end
-    100048: LowLegR
-    100050: LowLegR_end
-    100052: LowSpine
-    100054: Neck
-    100056: //RootNode
-    100058: UpArmL
-    100060: UpArmR
-    100062: UpLegL
-    100064: UpLegR
-    100066: UpSpine
-    400000: Armature
-    400002: Cylinder
-    400004: ElbowL
-    400006: ElbowL_end
-    400008: ElbowR
-    400010: ElbowR_end
-    400012: Head
-    400014: Head_end
-    400016: HipL
-    400018: HipR
-    400020: IKArmL
-    400022: IKArmR
-    400024: IKLegL
-    400026: IKLegR
-    400028: KneeL
-    400030: KneeL_end
-    400032: KneeR
-    400034: KneeR_end
-    400036: LowArmL
-    400038: LowArmL_end
-    400040: LowArmR
-    400042: LowArmR_end
-    400044: LowLegL
-    400046: LowLegL_end
-    400048: LowLegR
-    400050: LowLegR_end
-    400052: LowSpine
-    400054: Neck
-    400056: //RootNode
-    400058: UpArmL
-    400060: UpArmR
-    400062: UpLegL
-    400064: UpLegR
-    400066: UpSpine
-    2100000: No Name
-    4300000: Cylinder
-    7400000: Armature|Idle
-    7400002: Armature|Jump
-    7400004: Armature|PoseLib
-    7400006: Armature|PoseLib.001
-    7400008: Armature|Walk
-    7400010: Armature|Wave
-    7400012: Armature|Jog
-    7400014: Armature|Sprint
-    7400016: Armature|JumpAir
-    7400018: Armature|JumpLand
-    7400020: Armature|JumpStart
-    7400022: Armature|DumbSlide
-    7400024: Armature|SlideStart
-    7400026: Armature|Sliding
-    7400028: Armature|Grabbing
-    7400030: Armature|Wall Kick
-    7400032: Armature|Wall Slide
-    9500000: //RootNode
-    13700000: Cylinder
+  serializedVersion: 25
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Armature
+  - first:
+      1: 100002
+    second: Cylinder
+  - first:
+      1: 100004
+    second: ElbowL
+  - first:
+      1: 100006
+    second: ElbowL_end
+  - first:
+      1: 100008
+    second: ElbowR
+  - first:
+      1: 100010
+    second: ElbowR_end
+  - first:
+      1: 100012
+    second: Head
+  - first:
+      1: 100014
+    second: Head_end
+  - first:
+      1: 100016
+    second: HipL
+  - first:
+      1: 100018
+    second: HipR
+  - first:
+      1: 100020
+    second: IKArmL
+  - first:
+      1: 100022
+    second: IKArmR
+  - first:
+      1: 100024
+    second: IKLegL
+  - first:
+      1: 100026
+    second: IKLegR
+  - first:
+      1: 100028
+    second: KneeL
+  - first:
+      1: 100030
+    second: KneeL_end
+  - first:
+      1: 100032
+    second: KneeR
+  - first:
+      1: 100034
+    second: KneeR_end
+  - first:
+      1: 100036
+    second: LowArmL
+  - first:
+      1: 100038
+    second: LowArmL_end
+  - first:
+      1: 100040
+    second: LowArmR
+  - first:
+      1: 100042
+    second: LowArmR_end
+  - first:
+      1: 100044
+    second: LowLegL
+  - first:
+      1: 100046
+    second: LowLegL_end
+  - first:
+      1: 100048
+    second: LowLegR
+  - first:
+      1: 100050
+    second: LowLegR_end
+  - first:
+      1: 100052
+    second: LowSpine
+  - first:
+      1: 100054
+    second: Neck
+  - first:
+      1: 100056
+    second: //RootNode
+  - first:
+      1: 100058
+    second: UpArmL
+  - first:
+      1: 100060
+    second: UpArmR
+  - first:
+      1: 100062
+    second: UpLegL
+  - first:
+      1: 100064
+    second: UpLegR
+  - first:
+      1: 100066
+    second: UpSpine
+  - first:
+      4: 400000
+    second: Armature
+  - first:
+      4: 400002
+    second: Cylinder
+  - first:
+      4: 400004
+    second: ElbowL
+  - first:
+      4: 400006
+    second: ElbowL_end
+  - first:
+      4: 400008
+    second: ElbowR
+  - first:
+      4: 400010
+    second: ElbowR_end
+  - first:
+      4: 400012
+    second: Head
+  - first:
+      4: 400014
+    second: Head_end
+  - first:
+      4: 400016
+    second: HipL
+  - first:
+      4: 400018
+    second: HipR
+  - first:
+      4: 400020
+    second: IKArmL
+  - first:
+      4: 400022
+    second: IKArmR
+  - first:
+      4: 400024
+    second: IKLegL
+  - first:
+      4: 400026
+    second: IKLegR
+  - first:
+      4: 400028
+    second: KneeL
+  - first:
+      4: 400030
+    second: KneeL_end
+  - first:
+      4: 400032
+    second: KneeR
+  - first:
+      4: 400034
+    second: KneeR_end
+  - first:
+      4: 400036
+    second: LowArmL
+  - first:
+      4: 400038
+    second: LowArmL_end
+  - first:
+      4: 400040
+    second: LowArmR
+  - first:
+      4: 400042
+    second: LowArmR_end
+  - first:
+      4: 400044
+    second: LowLegL
+  - first:
+      4: 400046
+    second: LowLegL_end
+  - first:
+      4: 400048
+    second: LowLegR
+  - first:
+      4: 400050
+    second: LowLegR_end
+  - first:
+      4: 400052
+    second: LowSpine
+  - first:
+      4: 400054
+    second: Neck
+  - first:
+      4: 400056
+    second: //RootNode
+  - first:
+      4: 400058
+    second: UpArmL
+  - first:
+      4: 400060
+    second: UpArmR
+  - first:
+      4: 400062
+    second: UpLegL
+  - first:
+      4: 400064
+    second: UpLegR
+  - first:
+      4: 400066
+    second: UpSpine
+  - first:
+      21: 2100000
+    second: No Name
+  - first:
+      43: 4300000
+    second: Cylinder
+  - first:
+      74: 7400000
+    second: Armature|Idle
+  - first:
+      74: 7400002
+    second: Armature|Jump
+  - first:
+      74: 7400004
+    second: Armature|PoseLib
+  - first:
+      74: 7400006
+    second: Armature|PoseLib.001
+  - first:
+      74: 7400008
+    second: Armature|Walk
+  - first:
+      74: 7400010
+    second: Armature|Wave
+  - first:
+      74: 7400012
+    second: Armature|Jog
+  - first:
+      74: 7400014
+    second: Armature|Sprint
+  - first:
+      74: 7400016
+    second: Armature|JumpAir
+  - first:
+      74: 7400018
+    second: Armature|JumpLand
+  - first:
+      74: 7400020
+    second: Armature|JumpStart
+  - first:
+      74: 7400022
+    second: Armature|DumbSlide
+  - first:
+      74: 7400024
+    second: Armature|SlideStart
+  - first:
+      74: 7400026
+    second: Armature|Sliding
+  - first:
+      74: 7400028
+    second: Armature|Grabbing
+  - first:
+      74: 7400030
+    second: Armature|Wall Kick
+  - first:
+      74: 7400032
+    second: Armature|Wall Slide
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Cylinder
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -119,7 +297,442 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|DumbSlide
+      takeName: Armature|DumbSlide
+      internalID: 7400022
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Grabbing
+      takeName: Armature|Grabbing
+      internalID: 7400028
+      firstFrame: 0
+      lastFrame: 5
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Idle
+      takeName: Armature|Idle
+      internalID: 7400000
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Jog
+      takeName: Armature|Jog
+      internalID: 7400012
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|JumpAir
+      takeName: Armature|JumpAir
+      internalID: 7400016
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|JumpLand
+      takeName: Armature|JumpLand
+      internalID: 7400018
+      firstFrame: 0
+      lastFrame: 8
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|JumpStart
+      takeName: Armature|JumpStart
+      internalID: 7400020
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|PoseLib
+      takeName: Armature|PoseLib
+      internalID: 7400004
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|PoseLib.001
+      takeName: Armature|PoseLib.001
+      internalID: 7400006
+      firstFrame: 0
+      lastFrame: 3
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|SlideStart
+      takeName: Armature|SlideStart
+      internalID: 7400024
+      firstFrame: 0
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Sprint
+      takeName: Armature|Sprint
+      internalID: 7400014
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Walk
+      takeName: Armature|Walk
+      internalID: 7400008
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Wall Kick
+      takeName: Armature|Wall Kick
+      internalID: 7400030
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Wall Slide
+      takeName: Armature|Wall Slide
+      internalID: 7400032
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Wave
+      takeName: Armature|Wave
+      internalID: 7400010
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -134,18 +747,19 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -154,10 +768,11 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -167,6 +782,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

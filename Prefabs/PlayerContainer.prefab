@@ -240,16 +240,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: AquatociaCloakRig - Copy
       objectReference: {fileID: 0}
-    - target: {fileID: -6057140222963153312, guid: 0ccaea5a4f6a4794581a3ff5839d61a8,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -5669697556203348248, guid: 0ccaea5a4f6a4794581a3ff5839d61a8,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: a9f0478299418f74ea18f42d9e8e5d10, type: 2}
     - target: {fileID: -4216859302048453862, guid: 0ccaea5a4f6a4794581a3ff5839d61a8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -305,12 +295,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5425147557818186844, guid: 0ccaea5a4f6a4794581a3ff5839d61a8,
+    - target: {fileID: -6057140222963153312, guid: 0ccaea5a4f6a4794581a3ff5839d61a8,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5669697556203348248, guid: 0ccaea5a4f6a4794581a3ff5839d61a8,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: a9f0478299418f74ea18f42d9e8e5d10, type: 2}
     - target: {fileID: 6990484485100347698, guid: 0ccaea5a4f6a4794581a3ff5839d61a8,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a9f0478299418f74ea18f42d9e8e5d10, type: 2}
+    - target: {fileID: 5425147557818186844, guid: 0ccaea5a4f6a4794581a3ff5839d61a8,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
