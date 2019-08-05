@@ -1146,6 +1146,7 @@ MonoBehaviour:
     - PracticeScene
     - SceneBuilder
     - Workspace
+    AllowRuntimeSceneChanges: 0
     NetworkedPrefabs:
     - Prefab: {fileID: 3754669400956811389, guid: b5e540b85e600e24886da56547f2f5d8,
         type: 3}
@@ -1166,15 +1167,19 @@ MonoBehaviour:
     MaxReceiveEventsPerTickRate: 500
     SendTickrate: 100
     EventTickrate: 100
-    MaxBehaviourUpdatesPerTick: -1
+    MaxObjectUpdatesPerTick: -1
     ClientConnectionBufferTimeout: 10
     ConnectionApproval: 0
     ConnectionData: 
     SecondsHistory: 5
     EnableTimeResync: 1
+    TimeResyncInterval: 30
     EnableNetworkedVar: 1
+    EnsureNetworkedVarLengthSafety: 0
     ForceSamePrefabs: 1
     UsePrefabSync: 0
+    RecycleNetworkIds: 1
+    NetworkIdRecycleDelay: 120
     RpcHashSize: 0
     LoadSceneTimeOut: 120
     EnableEncryption: 0
